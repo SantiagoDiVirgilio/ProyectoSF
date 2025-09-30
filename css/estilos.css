@@ -606,7 +606,7 @@ footer div + a::before {
   }
 
   .logo {
-    width: 40%; /* Ajusta el tamaño del logo para móvil */
+    width: 30%; /* Ajusta el tamaño del logo para móvil */
     margin-bottom: 0;
   }
 
