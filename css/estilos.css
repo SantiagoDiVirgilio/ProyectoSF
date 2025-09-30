@@ -13,16 +13,10 @@ body{
   display: flex;
   flex-direction: column;
 }
-.personajes img{
-  width: 50%;
-  padding-left: 23%;
-  padding-bottom: 5%;
-  padding-top: 5%;
-}
 header{
     display: flex;
     justify-content: space-between;
-    background-color: #270e03;
+    background-color: #61a0a8;
     padding: 10px;
     position: relative; /* Añadido para el posicionamiento del menú */
     align-items: center; /* Alinea verticalmente el logo y la navegación */
