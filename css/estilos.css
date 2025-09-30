@@ -79,7 +79,7 @@ width: 20%;
   position: absolute;
   z-index: 1;
   min-width: 160px;
-  background-color: #57370e;
+  background-color: #61a0a8;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 12px 16px;
 }
@@ -542,7 +542,7 @@ article p{
 }
 
 footer{
-	background-color: #270e03;
+	background-color: #61a0a8;
 	text-align: center;
 }
 footer img{
