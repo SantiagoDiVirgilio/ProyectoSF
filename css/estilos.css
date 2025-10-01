@@ -37,16 +37,13 @@ nav > ul {
   display: flex; /* Pone los <li> uno al lado del otro */
   list-style: none;
   align-items: center;
-  font-size: 1.3rem;
+  font-size: 0.2rem;
   text-transform: uppercase;
   font-family: 'Cinzel', serif;
   gap: 2rem; /* Espacio entre los elementos de la lista */
 }
 nav > ul a {
   color: #ffffff;
-}
-nav ul li{
-  /* Eliminado padding-right: 2rem; */
 }
 
 nav ul li a{
