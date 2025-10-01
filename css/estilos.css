@@ -15,7 +15,6 @@ body{
 }
 header{
     display: flex;
-    justify-content: space-between;
     background-color: #61a0a8;
     padding: 10px;
     position: relative; /* Añadido para el posicionamiento del menú */
