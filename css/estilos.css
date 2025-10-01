@@ -37,7 +37,6 @@ nav > ul {
   display: flex; /* Pone los <li> uno al lado del otro */
   list-style: none;
   align-items: center;
-  padding-right: 12%;
   font-size: 1.3rem;
   text-transform: uppercase;
   font-family: 'Ubuntu', sans-serif;
@@ -544,7 +543,6 @@ footer{
 }
 footer img{
   margin-top: 3%;
-  margin-left: 16%;
   display: inline;
   margin-bottom: 2%;
 }
