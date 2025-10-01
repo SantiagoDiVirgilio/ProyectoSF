@@ -85,20 +85,20 @@ width: 15%;
 }
 .dropdown:hover .dropdown-content {
   display: block;
-  color: #cf9548;
+  color: #3f696e;
 }
 .dropdown-content li:hover {
-background-color: #cf9548;
+background-color: #3f696e;
 }
 .dropdown-content li a:hover {
-background-color: #cf9548;;
+background-color: #3f696e;;
 }
 div nav{
 	color: #ffffff;
 	font-family: 'Ubuntu', sans-serif;
 }
 p a{
-  color: #418242;
+  color: #050505;
 }
 
 /*----------------------------- INICIO ESTILOS DE PAGINA CONTACTO --------------------------------------*/
@@ -110,8 +110,6 @@ p a{
   border-radius: 10px; /* Esquinas redondeadas */
   padding: 20px; /* Espacio interno */
   text-align: center; /* Centra el texto */;
-  border: 2px solid rgb(96, 172, 96);
-  box-shadow: 0 0 15px rgba(96, 172, 96, 0.7);
   display: flex;
   flex-direction: column;
 }
@@ -176,13 +174,6 @@ p a{
   flex: 1;
 }
 
-.columna-fondo {
-  flex: 1;
-  background-image: url("../Imagenes/Fondo.webp");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-}
 
 .columna-texto {
   flex: 1;
