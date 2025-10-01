@@ -37,7 +37,7 @@ nav > ul {
   display: flex; /* Pone los <li> uno al lado del otro */
   list-style: none;
   align-items: center;
-  padding-left: 12%;
+  padding-right: 12%;
   font-size: 1.3rem;
   text-transform: uppercase;
   font-family: 'Cinzel', serif;
