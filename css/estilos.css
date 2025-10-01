@@ -40,8 +40,8 @@ nav > ul {
   padding-right: 12%;
   font-size: 1.3rem;
   text-transform: uppercase;
-  font-family: 'Cinzel', serif;
-  gap: 3rem; /* Espacio entre los elementos de la lista */
+  font-family: 'Ubuntu', sans-serif;
+  gap: 4rem; /* Espacio entre los elementos de la lista */
 }
 nav > ul a {
   color: #ffffff;
@@ -96,7 +96,7 @@ background-color: #cf9548;;
 }
 div nav{
 	color: #ffffff;
-	font-family: 'Cinzel', serif;
+	font-family: 'Ubuntu', sans-serif;
 }
 p a{
   color: #418242;
@@ -106,7 +106,7 @@ p a{
 .formu{
   flex: 0 0 45%;
   color: #ffffff;
-  font-family: 'Cinzel', serif;
+  font-family: 'Ubuntu', sans-serif;
   background-color: #1a0000;
   border-radius: 10px; /* Esquinas redondeadas */
   padding: 20px; /* Espacio interno */
@@ -217,7 +217,7 @@ p a{
   display: flex;
   align-items: stretch;
   margin-bottom: 3rem;
-  font-family: 'Cinzel', serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 18px;
   line-height: 1.6;
   background-color: #1a1a1a;
@@ -498,11 +498,11 @@ body.lb-disable-scrolling {
 }
 /*--------------------------------------- Fin Efecto Zoom en Imagenes -------------------------------------------*/
 div h1{
-	font-family: 'Cinzel', serif;
+	font-family: 'Ubuntu', sans-serif;
 	color: #FFFFFF;
 }
 div h2{
-  font-family: 'Cinzel', serif;
+  font-family: 'Ubuntu', sans-serif;
   margin-bottom: 50%;
   color: #FFFFFF;
 }
@@ -518,13 +518,13 @@ article h3{
   margin-left: 3%; 
 }
 h3{
-	font-family: 'Cinzel', serif;
+	font-family: 'Ubuntu', sans-serif;
 	margin-left: 3%;
 	color: #FFFFFF;
 }
 
 h4{
-  font-family: 'Cinzel', serif;
+  font-family: 'Ubuntu', sans-serif;
   margin-left: 3%;
   color: #FFFFFF;
   font-size: 1.2rem;
@@ -532,7 +532,7 @@ h4{
 }
 article p{
 	font-size: 1.3rem;
-	font-family: 'Cinzel', serif;
+	font-family: 'Ubuntu', sans-serif;
 	margin-left: 3%;
   display: block;
   color: #FFFFFF;
@@ -555,7 +555,7 @@ footer div{
   margin-top: 2%;
 }
 footer div a{
-  font-family: 'Cinzel', serif;
+  font-family: 'Ubuntu', sans-serif;
   color: #FFFFFF;
   font-size: 1rem;
   display: inline-block;
@@ -568,7 +568,7 @@ footer div h7:hover{
   color: rgb(96, 172, 96);
 }
 footer div h7{
-  font-family: 'Cinzel', serif;
+  font-family: 'Ubuntu', sans-serif;
   margin-top: 7%;
   margin-left: 8%;
   color: #FFFFFF;
