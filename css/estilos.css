@@ -511,11 +511,9 @@ footer{
 	background-color: #62b0b3;
 	text-align: center;
 }
-footer img{
-  margin-top: 3%;
-  margin-left: 36%;
-  display: inline;
-  margin-bottom: 2%;
+footer .redes-sociales {
+  padding: 1rem 2rem;
+  text-align: right;
 }
 footer div{
   text-align: center;
