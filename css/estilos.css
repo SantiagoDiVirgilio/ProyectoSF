@@ -40,7 +40,7 @@ nav > ul {
   font-size: 1.3rem;
   text-transform: uppercase;
   font-family: 'Ubuntu', sans-serif;
-  gap: 1rem; /* Espacio entre los elementos de la lista */
+  gap: 3rem; /* Espacio entre los elementos de la lista */
 }
 nav > ul a {
   color: #ffffff;
