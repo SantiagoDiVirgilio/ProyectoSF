@@ -512,6 +512,7 @@ footer{
 	text-align: center;
 }
 footer .redes-sociales {
+  display: block;
   padding: 1rem 2rem;
   text-align: right;
 }
