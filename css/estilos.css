@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 *{
 	padding: 0;
@@ -46,7 +46,7 @@ nav > ul {
   align-items: center;
   font-size: 1.3rem;
   text-transform: uppercase;
-  font-family: 'Cinzel', serif;
+  font-family: 'Ubuntu';
   gap: 2rem; /* Espacio entre los elementos de la lista */
 }
 nav > ul a {
@@ -63,11 +63,11 @@ li {
 nav ul li a:hover,
 nav ul li:hover
 {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 .logo{
-width: 20%;
+width: 15%;
 }
  /* Menú desplegable de la versión de escritorio */
 .dropdown-content a:hover{
@@ -102,7 +102,7 @@ background-color: #cf9548;;
 }
 div nav{
 	color: #ffffff;
-	font-family: 'Cinzel', serif;
+	font-family: 'Ubuntu';
 }
 p a{
   color: #000000;
@@ -112,7 +112,7 @@ p a{
 .formu{
   flex: 0 0 45%;
   color: #ffffff;
-  font-family: 'Cinzel', serif;
+  font-family: 'Ubuntu';
   background-color: #1a0000;
   border-radius: 10px; /* Esquinas redondeadas */
   padding: 20px; /* Espacio interno */
@@ -450,8 +450,8 @@ body.lb-disable-scrolling {
 
 /*--------------------------------------- Inicio Efecto Zoom en Imagenes -----------------------------------------*/
  img.redes{
-    width: 55px;
-    height: 55px;
+    width: 35px;
+    height: 35px;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
@@ -467,11 +467,11 @@ body.lb-disable-scrolling {
 }
 /*--------------------------------------- Fin Efecto Zoom en Imagenes -------------------------------------------*/
 div h1{
-	font-family: 'Cinzel', serif;
+	font-family: 'Ubuntu';
 	color: #000000;
 }
 div h2{
-  font-family: 'Cinzel', serif;
+  font-family: 'Ubuntu';
   margin-bottom: 50%;
   color: #000000;
 }
@@ -487,13 +487,13 @@ article h3{
   margin-left: 3%; 
 }
 h3{
-	font-family: 'Cinzel', serif;
+	font-family: 'Ubuntu';
 	margin-left: 3%;
 	color: #000000;
 }
 
 h4{
-  font-family: 'Cinzel', serif;
+  font-family: 'Ubuntu';
   margin-left: 3%;
   color: #000000;
   font-size: 1.2rem;
@@ -501,7 +501,7 @@ h4{
 }
 article p{
 	font-size: 1.3rem;
-	font-family: 'Cinzel', serif;
+	font-family: 'Ubuntu';
 	margin-left: 3%;
   display: block;
   color: #000000;
@@ -513,7 +513,7 @@ footer{
 }
 footer img{
   margin-top: 3%;
-  margin-left: 16%;
+  margin-left: 36%;
   display: inline;
   margin-bottom: 2%;
 }
@@ -524,7 +524,7 @@ footer div{
   margin-top: 2%;
 }
 footer div a{
-  font-family: 'Cinzel', serif;
+  font-family: 'Ubuntu';
   color: #000000;
   font-size: 1rem;
   display: inline-block;
@@ -537,7 +537,7 @@ footer div h7:hover{
   color: rgb(255, 255, 255);
 }
 footer div h7{
-  font-family: 'Cinzel', serif;
+  font-family: 'Ubuntu';
   margin-top: 7%;
   margin-left: 8%;
   color: #000000;
