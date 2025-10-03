@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 
 *{
 	padding: 0;
 	margin: 0;
 }
 body{
-  background-color: #8fb4b9;
+  background-color: #a4d7e0;
   background-size: cover; /* Hace que la imagen cubra toda la pantalla */
   background-position: center; /* Centra la imagen */
   min-height: 100vh; /* Asegura que el body ocupe al menos toda la altura de la pantalla */
@@ -13,9 +13,16 @@ body{
   display: flex;
   flex-direction: column;
 }
+.personajes img{
+  width: 50%;
+  padding-left: 23%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
 header{
     display: flex;
-    background-color: #61a0a8;
+    justify-content: space-between;
+    background-color: #62b0b3;
     padding: 10px;
     position: relative; /* Añadido para el posicionamiento del menú */
     align-items: center; /* Alinea verticalmente el logo y la navegación */
@@ -29,7 +36,7 @@ a{
 }
 nav{
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   flex-grow: 1; /* Permite que la navegación ocupe el espacio restante */
 }
 /* Esta es la regla para alinear los elementos del menú */
@@ -39,8 +46,8 @@ nav > ul {
   align-items: center;
   font-size: 1.3rem;
   text-transform: uppercase;
-  font-family: 'Ubuntu', sans-serif;
-  gap: 3rem; /* Espacio entre los elementos de la lista */
+  font-family: 'Cinzel', serif;
+  gap: 2rem; /* Espacio entre los elementos de la lista */
 }
 nav > ul a {
   color: #000000;
@@ -56,11 +63,11 @@ li {
 nav ul li a:hover,
 nav ul li:hover
 {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .logo{
-width: 15%;
+width: 20%;
 }
  /* Menú desplegable de la versión de escritorio */
 .dropdown-content a:hover{
@@ -75,7 +82,7 @@ width: 15%;
   position: absolute;
   z-index: 1;
   min-width: 160px;
-  background-color: #61a0a8;
+  background-color: #3888ad;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 12px 16px;
 }
@@ -85,31 +92,33 @@ width: 15%;
 }
 .dropdown:hover .dropdown-content {
   display: block;
-  color: #3f696e;
+  color: #cf9548;
 }
 .dropdown-content li:hover {
-background-color: #3f696e;
+background-color: #cf9548;
 }
 .dropdown-content li a:hover {
-background-color: #3f696e;;
+background-color: #cf9548;;
 }
 div nav{
-	color: #000000;
-	font-family: 'Ubuntu', sans-serif;
+	color: #ffffff;
+	font-family: 'Cinzel', serif;
 }
 p a{
-  color: #215e1b;
+  color: #000000;
 }
 
 /*----------------------------- INICIO ESTILOS DE PAGINA CONTACTO --------------------------------------*/
 .formu{
   flex: 0 0 45%;
   color: #ffffff;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Cinzel', serif;
   background-color: #1a0000;
   border-radius: 10px; /* Esquinas redondeadas */
   padding: 20px; /* Espacio interno */
   text-align: center; /* Centra el texto */;
+  border: 2px solid rgb(96, 172, 96);
+  box-shadow: 0 0 15px rgba(96, 172, 96, 0.7);
   display: flex;
   flex-direction: column;
 }
@@ -174,6 +183,13 @@ p a{
   flex: 1;
 }
 
+.columna-fondo {
+  flex: 1;
+  background-image: url("../Imagenes/Fondo.webp");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 .columna-texto {
   flex: 1;
@@ -192,6 +208,11 @@ p a{
 .title_logo{
   margin-top: 4%;
   margin-left: 36%;
+}
+.icon_per {
+  width: 250px;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
 /*-------------------------------------------- Inciio Código de Lightbox ----------------------------------------*/
@@ -253,7 +274,7 @@ body.lb-disable-scrolling {
   max-height: none;
   border-radius: 3px;
   /* Borde de la imagen */
-  border: 4px solid #3f696e;
+  border: 4px solid rgb(161, 114, 52);
   box-shadow: 0 0 15px rgba(161, 114, 52, 7);
 }
 
@@ -429,12 +450,13 @@ body.lb-disable-scrolling {
 
 /*--------------------------------------- Inicio Efecto Zoom en Imagenes -----------------------------------------*/
  img.redes{
-    width: 35px;
-    height: 35px;
+    width: 55px;
+    height: 55px;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
     -ms-transition: all .2s ease-in-out;
+    margin-left: 2%;
 }
  
 .transition {
@@ -445,13 +467,13 @@ body.lb-disable-scrolling {
 }
 /*--------------------------------------- Fin Efecto Zoom en Imagenes -------------------------------------------*/
 div h1{
-	font-family: 'Ubuntu', sans-serif;
-	color: #FFFFFF;
+	font-family: 'Cinzel', serif;
+	color: #000000;
 }
 div h2{
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Cinzel', serif;
   margin-bottom: 50%;
-  color: #FFFFFF;
+  color: #000000;
 }
 article h3{
   margin-left: 2.5%;
@@ -465,63 +487,66 @@ article h3{
   margin-left: 3%; 
 }
 h3{
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Cinzel', serif;
 	margin-left: 3%;
-	color: #FFFFFF;
+	color: #000000;
 }
 
 h4{
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Cinzel', serif;
   margin-left: 3%;
-  color: #FFFFFF;
+  color: #000000;
   font-size: 1.2rem;
   margin-top: 2%;
 }
 article p{
 	font-size: 1.3rem;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Cinzel', serif;
 	margin-left: 3%;
   display: block;
-  color: #FFFFFF;
+  color: #000000;
 }
 
-footer {
-    background-color: #61a0a8;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
+footer{
+	background-color: #62b0b3;
+	text-align: center;
 }
-
-.footer-links {
-    display: flex;
-    gap: 20px;
-    align-items: center;
+footer img{
+  margin-top: 3%;
+  margin-left: 16%;
+  display: inline;
+  margin-bottom: 2%;
 }
-
-.footer-social {
-    display: flex;
-    gap: 15px;
-    align-items: center;
+footer div{
+  text-align: center;
+  margin-left: 5%;
+  display: inline-grid;
+  margin-top: 2%;
 }
-
 footer div a{
-  font-family: 'Ubuntu', sans-serif;
-  color: #FFFFFF;
+  font-family: 'Cinzel', serif;
+  color: #000000;
   font-size: 1rem;
   display: inline-block;
-  margin: 0; /* Reset margin */
+  margin: 0 15px;
 }
 footer div a:hover{
-  color: rgb(5, 5, 5);
+  color: rgb(255, 255, 255);
 }
 footer div h7:hover{
-  color: rgb(7, 7, 7);
+  color: rgb(255, 255, 255);
 }
 footer div h7{
-  font-family: 'Ubuntu', sans-serif;
-  color: #FFFFFF;
+  font-family: 'Cinzel', serif;
+  margin-top: 7%;
+  margin-left: 8%;
+  color: #000000;
   font-size: 1rem;
+}
+
+footer div + a::before {
+  content: "";
+  display: block;
 }
 
 /*-----------------------------------------------VERSIÓN DE MÓBILES----------------------------------------------*/
@@ -684,7 +709,7 @@ footer div h7{
   footer img.redes {
     width: 35px;
     height: 35px;
-    margin: 0.1rem; /* Espacio alrededor de cada ícono */
+    margin: 0.5rem; /* Espacio alrededor de cada ícono */
     vertical-align: middle; /* Alinea mejor los íconos en la línea */
   }
   
